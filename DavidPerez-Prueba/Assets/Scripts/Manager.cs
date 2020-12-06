@@ -32,8 +32,10 @@ public class Manager : MonoBehaviour
     bool exerciseEnded;
 
     [Header("Counters")]
+    public Text failedAttemptsLabel;
     public Text failedAttemptsCounter;
     int failedAttempts;
+    public Text correctAttemptsLabel;
     public Text correctAttemptsCounter;
     int correctAttempts;
     
@@ -63,6 +65,10 @@ public class Manager : MonoBehaviour
 
         //Start the exercise at first update
         exerciseEnded = true;
+
+        //Get the correct names for the encerts/errors labels depending on the languaje
+        correctAttemptsLabel.text = namesLists[(int)idioma].marcadors[0];
+        failedAttemptsLabel.text = namesLists[(int)idioma].marcadors[1];
     }
 
     // Update is called once per frame

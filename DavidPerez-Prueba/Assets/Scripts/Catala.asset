@@ -23,3 +23,6 @@ MonoBehaviour:
   - Set
   - Vuit
   - Nou
+  marcadors:
+  - '  Encerts:'
+  - '  Errades:'

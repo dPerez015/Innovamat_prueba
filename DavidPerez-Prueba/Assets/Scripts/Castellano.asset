@@ -23,3 +23,6 @@ MonoBehaviour:
   - Siete
   - Ocho
   - Nueve
+  marcadors:
+  - '  Aciertos:'
+  - '     Fallos:'

@@ -6,4 +6,5 @@ using UnityEngine;
 public class NumberNames : ScriptableObject
 {
     public string[] names;
+    public string[] marcadors;
 }
