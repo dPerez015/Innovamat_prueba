@@ -358,7 +358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62040479a18b5a74790d3a7d4aee339a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idioma: 0
+  idioma: 1
   namesLists:
   - {fileID: 11400000, guid: b3869210be2a0724c9f6ac3746436b9c, type: 2}
   - {fileID: 11400000, guid: 673606c3d9fef324c893fd410ede255a, type: 2}
@@ -372,7 +372,9 @@ MonoBehaviour:
   - {fileID: 69916345}
   buttonsIntroTime: 2
   buttonsOutTime: 1
+  failedAttemptsLabel: {fileID: 877957183}
   failedAttemptsCounter: {fileID: 1308044629}
+  correctAttemptsLabel: {fileID: 126048736}
   correctAttemptsCounter: {fileID: 233763752}
 --- !u!4 &201953024
 Transform:

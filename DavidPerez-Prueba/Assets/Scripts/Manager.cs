@@ -78,6 +78,11 @@ public class Manager : MonoBehaviour
         {
             StartTry();
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     private void ResetExercice()
